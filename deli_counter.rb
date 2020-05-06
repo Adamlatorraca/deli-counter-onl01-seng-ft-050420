@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli = []
+array = []
 
 def line(array)
   if array.length >= 1
@@ -15,20 +15,12 @@ def line(array)
   end
 end
 
+def take_a_number(array , "{#counter}")
 
-
-
-
-
-
-
-
-
-# initialize katz_deli= []
-# define line(array)
-# if array_length >= 1
-# then create a new array
-# then start a counter at 1
+#
+# def take a number with arguments current people in line and string name joinng end of array
+# take a number should puts the persons name with their position, start with 1 not 0
+#
 #
 #
 #
