@@ -16,7 +16,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.length >= 1
+  if line(katz_deli) >= 1
       newaray = []
       counter = 1
       katz_deli.each do |name|
