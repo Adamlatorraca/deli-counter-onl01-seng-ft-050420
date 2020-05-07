@@ -21,6 +21,7 @@ def take_a_number(katz_deli, name)
       counter = 1
       katz_deli.each do |name|
           newarray << "#{counter}. #{name}"
+          counter += 1
     puts "Welcome, #{name}. You are number #{newarray.length(' ')} in line"
   else
     puts "The line is currently empty."
