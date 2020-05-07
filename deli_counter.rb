@@ -15,16 +15,9 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-      newarray = []
-      counter = 1
-      katz_deli.each do |name|
-          newarray << "#{counter}. #{name}"
-          counter += 1
-      end
-    puts "Welcome, #{name}. You are number #{newarray.length(' ')} in line"
-  else
-    puts "The line is currently empty."
+def take_a_number(katz_deli, name)    
+    puts "Welcome, #{name}. You are number #{katz_deli.length(' ')} in line"
+
   end
 end
 
