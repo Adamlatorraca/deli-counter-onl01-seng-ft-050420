@@ -15,7 +15,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, string)
+def take_a_number(katz_deli, "name")
   if katz_deli.length >= 1
     arrayed = []
     counter = 1
