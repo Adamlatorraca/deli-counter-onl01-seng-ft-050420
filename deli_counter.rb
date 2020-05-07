@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.length >= 1
     arrayed = []
     counter = 1
-    array.each do |name|
+    katz_deli.each do |name|
       arrayed << "#{counter}. #{name}"
       counter += 1
     end
