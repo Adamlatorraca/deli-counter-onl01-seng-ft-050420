@@ -17,7 +17,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length >= 1
-    puts "Welcome, #{name}. You are number #{katz_deli.join(' ')} in line"
+    return "Welcome, #{name}. You are number #{katz_deli.join(' ')} in line"
   else
     puts "The line is currently empty."
   end
