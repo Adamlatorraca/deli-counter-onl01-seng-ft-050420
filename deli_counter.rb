@@ -17,11 +17,11 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length >= 1
-      arrayed = []
+      newaray = []
       counter = 1
       katz_deli.each do |name|
-          arrayed << "#{counter}. #{name}""
-    puts "Welcome, #{name}. You are number #{katz_deli.join(' ')} in line"
+          newarray << "#{counter}. #{name}"
+    puts "Welcome, #{name}. You are number #{newarray.length(' ')} in line"
   else
     puts "The line is currently empty."
   end
