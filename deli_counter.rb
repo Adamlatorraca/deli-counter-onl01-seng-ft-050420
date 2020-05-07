@@ -23,7 +23,7 @@ def take_a_number(katz_deli, name)
       arrayed << "#{counter}. #{name}"
       counter += 1
     end
-    puts "Welcome, #{name}. You are number #{arrayed.join(' ')}"
+    puts "Welcome, #{name}. You are number #{katz_deli.join(' ')}"
   else
     puts "The line is currently empty."
   end
