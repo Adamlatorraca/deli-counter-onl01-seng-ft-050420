@@ -28,7 +28,8 @@ def take_a_number(array, name)
     puts "The line is currently empty."
   end
 end
-  
+
+
 
 #
 # def take a number with arguments current people in line and string name joinng end of array
