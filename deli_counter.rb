@@ -17,8 +17,9 @@ end
 
 def take_a_number(katz_deli, name)
     if katz_deli.length >=0 << name
-    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
-
+      puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+    else 
+      puts "it done broke"
 end
 
 
