@@ -15,7 +15,20 @@ def line(array)
   end
 end
 
-def take_a_number(array , name)
+def take_a_number(array, name)
+  if array.length >= 1
+    arrayed = []
+    counter = 1
+    array.each do |name|
+      arrayed << "#{counter}. #{name}"
+      counter += 1
+    end
+    puts "Welcome, #{name}. You are number #{arrayed.join(' ')}"
+  else
+    puts "The line is currently empty."
+  end
+end
+  
 
 #
 # def take a number with arguments current people in line and string name joinng end of array
