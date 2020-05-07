@@ -17,12 +17,10 @@ end
 
 def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number #{katz_deli.join(' ')} in line"
-  else
     puts "The line is currently empty."
-  end
 end
 
-take_a_number(katz_deli, "Ada")
+
 
 #
 # def take a number with arguments current people in line and string name joinng end of array
