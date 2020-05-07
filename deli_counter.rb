@@ -29,7 +29,7 @@ def take_a_number(katz_deli, name)
   end
 end
 
-
+take_a_number(katz_deli, "Ada")
 
 #
 # def take a number with arguments current people in line and string name joinng end of array
