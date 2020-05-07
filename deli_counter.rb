@@ -1,8 +1,8 @@
 # Write your code here.
 katz_deli = []
 
-def line(array)
-  if array.length >= 1
+def line(katz_deli)
+  if katz_deli.length >= 1
     arrayed = []
     counter = 1
     array.each do |name|
@@ -16,10 +16,10 @@ def line(array)
 end
 
 def take_a_number(katz_deli, name)
-  if array.length >= 1
+  if katz_deli.length >= 1
     arrayed = []
     counter = 1
-    array.each do |name|
+    katz_deli.each do |name|
       arrayed << "#{counter}. #{name}"
       counter += 1
     end
