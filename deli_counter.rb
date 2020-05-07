@@ -17,7 +17,7 @@ end
 
 def take_a_number(katz_deli, string)
     katz_deli << "#{string}"
-    puts "Welcome, #{name}. You are number #{katz_deli.length(' ')} in line"
+    puts "Welcome, #{string}. You are number #{katz_deli.length(' ')} in line"
 
 end
 
