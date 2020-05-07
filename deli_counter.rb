@@ -16,7 +16,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, string)
-    
+
   end
     puts "Welcome, #{name}. You are number #{katz_deli.join(' ')} in line"
   else
