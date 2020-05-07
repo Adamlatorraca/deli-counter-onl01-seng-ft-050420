@@ -28,13 +28,3 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
 end
 end
-
-
-#
-# def take a number with arguments current people in line and string name joinng end of array
-# take a number should puts the persons name with their position, start with 1 not 0
-#
-#
-#
-#
-#
