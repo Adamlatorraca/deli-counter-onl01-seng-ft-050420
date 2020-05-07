@@ -16,7 +16,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if line >= 1
+  if katz_deli.length >= 1
     arrayed = []
     counter = 1
     katz_deli.each do |name|
