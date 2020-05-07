@@ -1,5 +1,5 @@
 # Write your code here.
-array = []
+katz_deli = []
 
 def line(array)
   if array.length >= 1
@@ -15,7 +15,7 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
+def take_a_number(katz_deli, name)
   if array.length >= 1
     arrayed = []
     counter = 1
