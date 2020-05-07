@@ -15,7 +15,7 @@ def line(array)
   end
 end
 
-def take_a_number(array , "{#counter}")
+def take_a_number(array , name)
 
 #
 # def take a number with arguments current people in line and string name joinng end of array
